@@ -1,0 +1,343 @@
+/*Theme*/
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat");
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', Georgia, Times, serif;
+  font-size: 49px;
+  font-weight: bold;
+  line-height: 65px;
+  padding: 0;
+  margin-bottom: 0;
+  color: #341b07; }
+
+p, li, ul {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 25px; }
+
+button {
+  background: #341b07;
+  color: #886f68;
+  border: none;
+  height: 60px;
+  font-weight: 900;
+  font-size: 1.6em;
+  padding: 0 2em;
+  margin: 0, 10em;
+  cursor: pointer;
+  transition: 300ms ease all;
+  outline: none;
+  border-radius: 3px;
+  display: inline-block;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5); }
+
+button:hover {
+  background: #121518;
+  color: #341b07; }
+
+html, body {
+  background-color: #f5edf0;
+  padding: 0;
+  margin: 0;
+  white-space: 0;
+  scroll-behavior: smooth; }
+
+a {
+  text-decoration: none;
+  color: #341b07; }
+
+a:visited, a:hover a:active {
+  color: #886f68; }
+
+nav {
+  width: 100%;
+  max-width: 100%;
+  height: 5%;
+  font-weight: 600px;
+  border-bottom: 1px solid #5b5b5b;
+  position: fixed;
+  top: 0;
+  background-color: rgba(244, 244, 244, 0.5);
+  z-index: 1000;
+  padding: 0;
+  font-size: 1.25em; }
+
+nav .navBar .navButton a {
+  color: #341b07;
+  text-decoration: none;
+  font-family: 'Lato', Georgia, Times, serif; }
+
+nav .navBar .navButton a:hover {
+  color: #886f68; }
+
+nav .navBar {
+  text-align: center; }
+
+nav .navBar .navButton {
+  display: inline-block;
+  padding-left: 0.25em;
+  padding-right: 0.25em; }
+
+.navClear {
+  height: 2em;
+  width: 100%;
+  display: absolute; }
+
+.contact-bar {
+  position: fixed;
+  top: 5%;
+  padding: 0;
+  width: 100%;
+  text-align: center; }
+
+.contact-bar span a, .contact-bar span i {
+  color: #d1ccdc; }
+
+.contact-bar span {
+  vertical-align: middle;
+  padding: 0.25em;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  font-size: 0.8em; }
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: #f5edf0;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: center; }
+
+#landing {
+  text-align: center;
+  background-image: url(../../assets/img/wood-background-1-no-att.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh; }
+
+#AQL-logo {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  padding-top: 10%;
+  padding-bottom: 1%; }
+
+#side-contact {
+  opacity: 0; }
+
+#about {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  white-space: 0;
+  height: 100vh;
+  padding-left: 1em;
+  width: 90vw; }
+
+#about h3 {
+  padding-top: 0;
+  margin-top: 0.5em;
+  color: #341b07; }
+
+#products {
+  background-image: url(../../assets/img/wood-background-2-no-att.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #d1ccdc;
+  height: 110vh;
+  text-align: center; }
+
+#products h3 {
+  color: #886f68;
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  margin: 0.5em 0em 0.5em 0.5em; }
+
+#products p {
+  font-size: 1.5em;
+  padding: 0.175em;
+  margin: 0; }
+
+#products a {
+  color: #d1ccdc; }
+
+#product-list {
+  width: 100%;
+  text-align: left; }
+
+#product-list ul {
+  display: inline-block;
+  list-style: none; }
+
+#product-list ul li {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0.175em; }
+
+.readable-fix {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5em;
+  padding-bottom: 1.5em; }
+
+#testimonials {
+  padding-left: 1em;
+  width: 90vw; }
+
+#testimonials h3 {
+  margin-top: 0em; }
+
+footer {
+  max-width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin-right: 0;
+  white-space: 0; }
+
+@media (max-height: 800px) {
+  footer {
+    position: static; } }
+.footerSocial {
+  background-color: #121518;
+  box-shadow: -1px -1px -1px 0 #424c55;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px;
+  font-family: 'Lato', sans-serif;
+  padding: 45px 50px;
+  margin-right: 0;
+  white-space: 0;
+  margin-top: 5em; }
+
+.footerSocial .footer-left p {
+  color: #cccccc;
+  font-size: 14px;
+  margin: 0; }
+
+/* Footer links */
+.footerSocial p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d1ccdc;
+  margin: 0 0 10px;
+  padding: 0; }
+
+.footerSocial p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif; }
+
+.footerSocial .footer-right {
+  float: right;
+  max-width: 100%;
+  margin-right: 0;
+  padding-right: 5%;
+  padding-bottom: 4%;
+  white-space: 0; }
+
+.footerSocial .footer-right a {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  font-size: 3em;
+  color: #341b07;
+  text-align: center;
+  line-height: 35px; }
+
+.footerSocial .footer-right a:hover {
+  color: #5b5b5b; }
+
+@media only screen and (min-width: 600px) {
+  #AQL-logo {
+    width: 32%;
+    height: auto;
+    display: inline;
+    padding-top: 0;
+    padding-bottom: 1%;
+    padding: 0 20%; }
+
+  button {
+    display: inline;
+    margin: 0 9%;
+    color: #886f68; }
+
+  #about {
+    height: 110vh;
+    padding: 0em;
+    width: 95vw; }
+
+  #about p {
+    font-size: 1.4em;
+    line-height: 1.5em;
+    margin: 0.5 1.5em;
+    padding: 2em; }
+
+  #about h3 {
+    line-height: 1.5em;
+    margin: 1em; }
+
+  nav .navBar .navButton {
+    font-size: 1.5em;
+    padding: 0 3em; }
+
+  nav {
+    height: 1.75em; }
+
+  .contact-bar {
+    font-size: 1.25em;
+    margin: 0.25em 0;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif; }
+
+  .contact-bar span {
+    margin: 0 3em; }
+
+  #products h3 {
+    font-size: 5em;
+    padding-top: 0.5em;
+    color: #886f68; }
+
+  #products ul {
+    width: 90%;
+    margin: 1em;
+    font-size: 1.25em;
+    text-align: center; }
+
+  #products li {
+    line-height: 1em;
+    font-weight: bold; }
+
+  #products p {
+    font-size: 1.75em;
+    font-weight: bold; }
+
+  #products button {
+    margin-top: 1em; }
+
+  .readable-fix {
+    padding-bottom: 8.5em; }
+
+  .footerSocial .footer-right a {
+    padding: 0.1em; }
+
+  #testimonials {
+    width: 74%;
+    margin: 0 10%;
+    white-space: 0; }
+
+  #testimonials h3 {
+    padding: 0.5em; } }
+@media only screen and (min-width: 1046px) {
+  #side-contact {
+    opacity: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: left;
+    font-size: 2.25em;
+    padding-left: 0.3em;
+    z-index: 1000; } }
