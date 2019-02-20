@@ -1,3 +1,8 @@
+/*Designed Mobile first,
+* small + mobile screen styles first
+* adjusted later for larger screens,
+* added side-contact only for screens large enough
+*/
 /*Theme*/
 @import url("https://fonts.googleapis.com/css?family=Lato|Montserrat");
 h1, h2, h3, h4, h5, h6 {
@@ -145,7 +150,7 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #d1ccdc;
-  height: 110vh;
+  height: 101vh;
   text-align: center; }
 
 #products h3 {
@@ -177,15 +182,38 @@ section {
 
 .readable-fix {
   background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
   padding: 0.5em;
-  padding-bottom: 1.5em; }
+  padding-bottom: 0; }
 
 #testimonials {
   padding-left: 1em;
-  width: 90vw; }
+  padding-bottom: 0;
+  height: 70vh; }
 
 #testimonials h3 {
   margin-top: 0em; }
+
+/*
+  Section gallery
+*/
+.imageGallery {
+  display: inline-block;
+  max-height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  text-align: center; }
+
+.galleryImage {
+  display: inline;
+  text-align: left;
+  max-height: 700px;
+  width: auto;
+  overflow: hidden; }
+
+.imageGallery img {
+  width: 18%;
+  padding: 0.55%; }
 
 footer {
   max-width: 100%;
@@ -317,9 +345,6 @@ footer {
 
   #products button {
     margin-top: 1em; }
-
-  .readable-fix {
-    padding-bottom: 8.5em; }
 
   .footerSocial .footer-right a {
     padding: 0.1em; }
